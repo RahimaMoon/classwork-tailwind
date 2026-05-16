@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+   
+    <header class="flex items-center justify-between p-[10px] mt-[15px] rounded-4xl bg-blue-50">
+        <div class="flex gap-[20px]">
+        <img src="./imgs/Group 1.png" alt="">
+        <nav class="hidden lg:flex lg:gap-[20px]">
+          <p>Чему вы научитесь</p>
+          <p>Процесс обучения</p>
+          <p>Стоимость</p>
+          <p>Контакты</p>
+        </nav>
+        </div>
+        <div class="lg:flex lg:gap-[15px] lg:items-center">
+            <p class="hidden lg:flex ">Регистрация</p>
+            <button class="text-white bg-blue-600 p-[10px] rounded-3xl w-fit ">➡ Войти</button>
+        </div>
+          <i class="fa-solid fa-bars lg:hidden!"></i>
+    </header>
+   
+    <section class=" bg-blue-50 flex flex-col gap-y-2 items-center justify-center mt-[20px] lg:flex-row lg:justify-around lg:items-center">
+      
+        <aside class="flex flex-col gap-y-[40px]">
+<h1 class="lg:text-6xl  text-4xl">Школа <span class="font-bold">{программирования}</span><br>для тех, кому нужны<br> реальные навыки,<br>
+а не просто сертификат</h1>
+<p class="lg:text-3xl text-2xl">Пройдите тестирование, чтобы получить доступ<br> к бесплатным вводным урокам</p>
+<button class="bg-orange-500 text-white p-[20px] rounded-4xl lg:w-fit ">Пройти тестирование ↗</button>
+        </aside>
+        <aside class="relative">
+              <img src="./imgs/Group 132.png" alt="">
+              <img class="absolute top-[280px]" src="./imgs/Layer 2.png" alt="">
+        </aside>
+        <img class="w-[30px] absolute top-[1700px] lg:top-[1200px]" src="./imgs/Arrow 5.png" alt="">
+    </section>
 </body>
 </html>
