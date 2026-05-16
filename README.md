@@ -1,4 +1,4 @@
-# 💻 YtYt Academy
+# 💻 YtYt
 
 > Modern programming education center for future developers and IT specialists.
 
@@ -51,20 +51,7 @@ To make programming education accessible, modern, and inspiring for everyone.
 
 ---
 
-## 📸 Preview
 
-<p align="center">
-  <img src="https://i.imgur.com/placeholder.png" width="90%" />
-</p>
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/yourusername/ytyt-academy.git
-
-cd ytyt-academy
 
 npm install
 
