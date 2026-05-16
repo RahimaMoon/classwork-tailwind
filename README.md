@@ -53,6 +53,3 @@ To make programming education accessible, modern, and inspiring for everyone.
 
 
 
-npm install
-
-npm run dev
